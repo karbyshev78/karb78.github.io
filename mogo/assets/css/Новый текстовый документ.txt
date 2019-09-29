@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 15px;
+	line-height: 1.6; /*Межстрочный отступ*/
+	color: #333;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.container { /*Контенер для сайта*/
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*intro*/
+
+.intro{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/intro.jpg") center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
